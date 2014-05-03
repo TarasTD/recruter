@@ -49,6 +49,10 @@ class Ui_MainWindow(object):
         self.label_6.setGeometry(QtCore.QRect(350, 150, 151, 21))
         self.label_6.setObjectName("label_6")
         self.level = QtGui.QComboBox(self.groupBox)
+        self.level.addItems(['','Weak junior', 'Junior', 'Srong junior', 
+        						'Weak middle', 'Middle', 'Strong middle',
+        						'Weak senior', 'Senior', 'Strong senior', 
+        						'Architect'])
         self.level.setGeometry(QtCore.QRect(20, 180, 161, 26))
         self.level.setObjectName("level")
         self.label_7 = QtGui.QLabel(self.groupBox)
