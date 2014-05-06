@@ -64,7 +64,7 @@ class MainWindow(Ui_MainWindow, QMainWindow):
 
 	def get_photo(self):
 		self.Photo_path = QFileDialog.getOpenFileName(self,("Open Image"),
-			                                       ("Image Files (*.png *.jpg *.bmp *.JPG)"))
+			                    ("Image Files (*.png *.jpg *.bmp *.JPG)"))
 		print self.Photo_path
 
 	def get_cv_file(self):
@@ -88,3 +88,5 @@ if __name__ == "__main__":
 	frame=MainWindow()
 	frame.show()
 	app.exec_()
+
+	

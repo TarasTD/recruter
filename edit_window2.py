@@ -13,8 +13,11 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(839, 745)
+        #self.scrollArea = QtGui.QScrollArea()
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
+        #self.centralwidget.inFullScreenResize = False
+        #self.scrollArea.setWidget(self.centralwidget)
         self.groupBox = QtGui.QGroupBox(self.centralwidget)
         self.groupBox.setGeometry(QtCore.QRect(270, 10, 551, 241))
         self.groupBox.setObjectName("groupBox")
