@@ -241,11 +241,7 @@ class Ui_MainWindow(object):
         MainWindow.setTabOrder(self.CV, self.upload_CV)
         MainWindow.setTabOrder(self.upload_CV, self.upload)
         MainWindow.setTabOrder(self.upload, self.save)
-        '''MainWindow.setTabOrder(self.save, MainWindow.scrollArea)
-        MainWindow.setTabOrder(MainWindow.scrollArea, self.toolButton)
-        MainWindow.setTabOrder(self.toolButton, MainWindow.scrollArea_2)
-        MainWindow.setTabOrder(MainWindow.scrollArea_2, self.photo)
-        MainWindow.setTabOrder(self.photo, MainWindow.plainTextEdit_2)'''
+
 
     def printout(self):
         self.text = self.Name.text()
